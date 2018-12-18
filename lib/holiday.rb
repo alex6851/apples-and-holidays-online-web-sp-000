@@ -88,8 +88,7 @@ def all_holidays_with_bbq(holiday_hash)
         else
           updatedhash = holiday.values.flatten << "BBQ"
       end
-      puts "#{holiday_each.to_s.each {|single_holiday| single_holiday}}: " "#{updatedhash}"
+      puts "#{holiday_each}: " "#{updatedhash}"
       end
     end
   end
-end
